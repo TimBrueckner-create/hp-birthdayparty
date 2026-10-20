@@ -1,6 +1,6 @@
 const PREFIX='geheime-karte:'+self.registration.scope;
-const CACHE=PREFIX+'v4.3-edit-buttons';
-const FILES=['./', './index.html', './style.css', './app.js', './core.js','./parent-pin.js', './manifest.json', './icon.svg', './assets/castle.jpg', './assets/hat.jpg', './assets/creature.jpg', './assets/chest.jpg', './assets/tree.jpg', './assets/area-map.svg', './assets/map-meta.json','./assets/egg.jpg','./assets/scroll.jpg','./assets/kartendaten.zip'];
+const CACHE=PREFIX+'v5-hogwarts-1';
+const FILES=["./", "./index.html", "./style.css", "./app.js", "./core.js", "./campaign.js", "./story.js", "./parent-pin.js", "./manifest.json", "./icon.svg", "./assets/area-map.svg", "./assets/castle.jpg", "./assets/chest.jpg", "./assets/creature.jpg", "./assets/egg.jpg", "./assets/fonts/MedievalSharp.ttf", "./assets/fonts/OFL.txt", "./assets/hat.jpg", "./assets/house-gryffindor.svg", "./assets/house-hufflepuff.svg", "./assets/house-ravenclaw.svg", "./assets/house-slytherin.svg", "./assets/kartendaten.zip", "./assets/knight-bus.jpg", "./assets/map-meta.json", "./assets/scroll.jpg", "./assets/start.jpg", "./assets/tree.jpg"];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET'||!event.request.url.startsWith(self.registration.scope))return;event.respondWith(caches.open(CACHE).then(cache=>cache.match(event.request)).then(hit=>hit||fetch(event.request)));});
