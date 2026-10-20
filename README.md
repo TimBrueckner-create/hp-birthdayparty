@@ -1,4 +1,4 @@
-# Geheime Karte – Hogwarts-Paket v5
+# Geheime Karte – Hogwarts-Paket v6
 
 Eine gemeinsame Schnitzeljagd für 6–7 Kinder, begleitet von Erwachsenen. Richtwert 60–90 Minuten; Arbeitsannahme Alter 7–10 Jahre.
 
@@ -31,3 +31,7 @@ Zwei nahe Testorte aufnehmen; Entfernung gewinnen, verstecktes Ziel und Ankunft 
 Das Gesamtpaket enthält separat Druckkarten, fiktiven Fahrplan, Einleitungsbrief als PDF und Leitfaden mit Lösungen. HTML-Druckvorlagen im Browser öffnen und mit Hintergrundgrafiken auf A4 bei 100 % drucken. Die Wappenvorlage ist eine Pappprobe; ein passendes STL-Modell ist noch nicht enthalten. Hotel Dresden gehört nicht zur Route.
 
 Kartenquelle: © OpenStreetMap-Mitwirkende, ODbL; geografische Daten und Metadaten unter assets. Schrift MedievalSharp mit OFL-Lizenz lokal eingebettet. Illustrationen sind eigenständige Motive; Hauszeichen vereinfachte Grafiken.
+
+Version 5.1: Startseite im Stil des HP-Quiz (dunkles Schloss, goldene Kacheln). Die Karte und Rätselseiten behalten ihr Pergament. Weitere Geschöpfe-Spiele und Quiz-Integration stehen im Entwicklungsplan; der aktuelle Geschöpfe-Einstieg zeigt den Niffler aus der Schnitzeljagd.
+
+Version 6: Kapitelmenü mit vier Einträgen untereinander, einheitlichen goldenen Symbolen, ruhiger Buchschrift und Wiedereinstieg über den gespeicherten Spielstand. Kein Zurücksetzen nötig. Der Datenformatstand bleibt Version 5. Nach finaler Belohnung öffnet der hervorgehobene Einstieg die abgeschlossene Schatzkammer.
