@@ -130,7 +130,7 @@ async function unlockAdmin(change=false){
  try{record=await transact('readonly',s=>s.get('parent-pin'));}catch{pinPending=false;toast('PIN-Speicher nicht verfügbar.');return false;}
  const setting=!record||change;
  const dialog=$('pinDialog');$('pinTitle').textContent=setting?'Eltern-PIN festlegen':'Nur für die Spielleitung';
- $('pinInstructions').textContent=setting?'Wähle eine PIN mit 4 bis 8 Ziffern. Richte sie vor der Übergabe an die Kinder ein.':'Gib deine Eltern-PIN ein, um Fundorte, Rätsel und Lösungen zu bearbeiten.';
+ $('pinInstructions').textContent=setting?'Wähle eine PIN mit 4 bis 8 Ziffern. Richte sie vor der Übergabe an die Kinder ein.':'Gib deine Eltern-PIN ein, um Stationen und Rätsel zu bearbeiten.';
  $('pinInput').value='';$('pinRepeat').value='';$('pinRepeatLabel').hidden=!setting;$('pinRepeat').hidden=!setting;$('pinRepeat').required=setting;$('pinError').textContent='';
  $('pinInput').setAttribute('autocomplete',setting?'new-password':'current-password');
  const result=await new Promise(resolve=>{
