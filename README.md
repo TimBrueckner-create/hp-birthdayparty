@@ -1,37 +1,41 @@
-# Geheime Karte – Hogwarts-Paket v6
+# Geheime Karte – App v7.1 (Klasse 3)
 
-Eine gemeinsame Schnitzeljagd für 6–7 Kinder, begleitet von Erwachsenen. Richtwert 60–90 Minuten; Arbeitsannahme Alter 7–10 Jahre.
+Ein Team aus 6–7 Kindern mit erwachsener Begleitung. Schnitzeljagd 60–90 Minuten; Hausauswahl und Spiele drinnen zusätzlich.
 
-## Ablauf
+Aktuelles Funktionsupdate: [NEU-v7.1.md](NEU-v7.1.md). Separater Häuser-/Punkteabgleich und sieben Indoor-Anleitungen sind jetzt eingebaut.
 
-Wiese/Hagrids Niffler → Verteilerhäuschen/Flitwicks Zauberleitung → Kindergarten/Erinnerung der vier Häuser → Haltestelle/Fahrender Ritter → Birke/Hogwarts-Finale. Vier Hausviertel sammeln; die Erinnerung aus Station 3 hilft beim Finale.
+## Rätselkette
 
-Nach einer richtigen Eingabe bleibt zuerst die Erfolgsseite sichtbar. Erst „Nächste Spur öffnen“ schaltet weiter. Der neue Zielort bleibt auf der Karte verborgen, bis zwei frische ausreichend genaue GPS-Messungen die Nähe innerhalb 20 Metern bestätigen. Standortsuche funktioniert bei geöffneter App; iOS-Hintergrundtracking wird nicht vorausgesetzt.
+Wiese/Niffler: 4276 → Häuschen/Flitwicks zerrissener Zauber: LUMOS → Kindergarten/McGonagalls Beweiskarten: 8526 → Haltestelle/Fahrender Ritter: 2723 → Birke/Wappenfinale: 3719.
 
-## Vorbereiten
+Münzen und LUMOS sind vereinbart. Beweiskarten und anspruchsvollerer Fahrschein sind ausgearbeitete, spielbare Vorschläge zur gemeinsamen Durchsicht. Vier Hausviertel: Gryffindor 3, Slytherin 7, Ravenclaw 1, Hufflepuff 9. Hotel Dresden ist kein Fundort.
 
-Spielleitung öffnen und eigene Eltern-PIN setzen. Die PIN ist eine lokale Bedienbarriere; die statischen App-Dateien und Lösungen sind öffentlich einsehbar. In der Spielleitung die fünf Stationen auswählen, draußen GPS erfassen und jeweils speichern. Ortshinweise an die tatsächlich gewählten Plätze anpassen. Benötigt werden alle vier Hausviertel und genau ein Finale am Ende. Zusatzstationen werden vor dem Finale eingefügt.
+## Installation und vorhandene Route
 
-Bestehende v4-Daten werden beim Update erhalten und als bisherige Teststationen angezeigt. Erst „Hogwarts-Route laden“ lädt bewusst die neuen Inhalte und archiviert die bisherige Route lokal. Zuvor vorhandene Sicherung exportieren; das lokale Archiv kann zusätzlich heruntergeladen werden. GPS der neuen Stationen muss zugeordnet werden. Die Eltern-PIN bleibt erhalten. Änderungen an der Route setzen ihren Fortschritt und die zugehörigen Rätselpunkte zurück.
+Vorher unter Spielleitung → Verwaltung eine Sicherung exportieren. Den Inhalt dieses App-Ordners einschließlich assets direkt in das Repository hp-birthdayparty hochladen; gleichnamige App-Dateien ersetzen. Nicht den äußeren App-Ordner als zusätzliche Ebene hochladen. GitHub Pages: main, /(root). hp-quiz bleibt unberührt. Dieses Paket wurde lokal geprüft, noch nicht veröffentlicht.
 
-Hausauswahl kann vor dem Start für jedes Kind durchgeführt werden. Auf der Erfolgsseite vergibt die Spielleitung Hauspunkte nach PIN-Eingabe an Helfende oder alle gemeinsam. Jedes beteiligte Haus bekommt die Punktzahl einmal; mehrere Kinder desselben Hauses verdoppeln sie nicht. Rätselpunkte werden pro Station nur einmal vergeben. Zusätzliche Vergaben/Korrekturen unter Spielleitung → Hauspunkte.
+Online über HTTPS öffnen und „✓ Offline bereit“ abwarten. Bei bestehender Hogwarts-Route: Spielleitung → Verwaltung → „Klasse-3-Rätsel übernehmen“. Erst nach Bestätigung werden die fünf Standardtexte, Lösungen und der Abschlusscode aktualisiert. GPS, Stationsfotos, Radien, Reihenfolge, Zusatzstationen und Hauszuordnungen bleiben. Routenfortschritt und zugehörige Rätselpunkte starten neu; manuelle Punkte bleiben erhalten. Der vorherige Stand wird lokal archiviert und kann separat heruntergeladen werden. Bereits individuell bearbeitete Standardtexte werden dabei ersetzt.
 
-## Installation / Offline
+Eigene oder alte Test-Routen werden nicht automatisch geändert. „Hogwarts-Route laden“ ist ein separater Vorlagenwechsel; vorher sichern und die echten Fundorte anschließend kontrolliert zuordnen. Persönliche Sicherungen mit Namen, Fotos und GPS nicht ins öffentliche Repository hochladen.
 
-Den Inhalt dieses App-Ordners einschließlich assets direkt in das Repository hp-birthdayparty hochladen und vorhandene gleichnamige App-Dateien ersetzen. Nicht den äußeren App-Ordner als zusätzliche Ebene hochladen. GitHub Pages: main, /(root). Das separate Repository hp-quiz bleibt unberührt.
+## App-Unterstützung
 
-Auf dem iPhone die veröffentlichte HTTPS-Adresse öffnen, bis „✓ Offline bereit“ angezeigt wird. Danach optional zum Home-Bildschirm hinzufügen. Flugmodus erst anschließend einschalten. Nach jedem Update online neu öffnen und Offline-Bereitschaft abwarten. Spielstand und GPS sind lokal auf dem Gerät; es gibt keinen Serverabgleich. Sicherung vor Gerätewechsel/Browserdaten-Löschung exportieren.
+Nach richtiger Antwort bleibt die Erfolgsseite sichtbar, bis „Nächste Spur öffnen“ gedrückt wird. Nächster Zielort bleibt bis zur Nähe von 20 m und zwei frischen ausreichend genauen Messungen verborgen. GPS funktioniert bei sichtbarer App; Erwachsenenfreigabe bei Empfangsproblemen vorhanden.
 
-## Praxistest
+Neu: Bilderkette antippen und prüfen, Tier-Beweis-Zuordnungen prüfen, Fahrschein aus Fahrtnummer und berechneter Dauer zusammensetzen. Die Hauptlösung wird anschließend ausdrücklich bestätigt. Zwischenwahlen dieser Hilfsfelder können nach Neuladen erneut nötig sein; Stationsfortschritt bleibt gespeichert.
 
-Zwei nahe Testorte aufnehmen; Entfernung gewinnen, verstecktes Ziel und Ankunft im Bereich 20 Meter prüfen. Falsche/richtige Lösung, expliziten nächsten Hinweis und Offline-Neustart testen. Bei GPS-Problemen kann die Spielleitung den Fundort bestätigen. Danach endgültige fünf Orte und Ausdrucke vorbereiten. Diese reale iPhone-GPS-Abnahme steht noch aus.
+Hausauswahl und Hauspunkte sind implementiert. Pro Rätsel wird jedes beteiligte Haus einmal gewertet; mehrere Kinder desselben Hauses verdoppeln die Punkte nicht. Zusätzliche Vergaben/Korrekturen manuell unter Spielleitung. Eltern-PIN ist eine lokale Bedienbarriere, keine serverseitige Zugriffskontrolle; Lösungen stehen in öffentlich ausgelieferten App-Dateien.
 
-## Material und Grenzen
+Einhorn, Drachenei und Mondkälber sind als analoge Spiele vorbereitet. Seit v7.1 stehen die Vorlesebriefe und geschützten Anleitungen unter „Spiele für drinnen“, zusammen mit Fühlkiste, Papierquiz und zwei Zusatzideen. Hauspunkte werden aus den Anleitungen heraus manuell vergeben. Automatische Lösungsprüfung und Timer sind nicht implementiert. Das bestehende HP-Quiz ist eigenständig und teilt noch keinen Spielstand mit dieser App.
 
-Das Gesamtpaket enthält separat Druckkarten, fiktiven Fahrplan, Einleitungsbrief als PDF und Leitfaden mit Lösungen. HTML-Druckvorlagen im Browser öffnen und mit Hintergrundgrafiken auf A4 bei 100 % drucken. Die Wappenvorlage ist eine Pappprobe; ein passendes STL-Modell ist noch nicht enthalten. Hotel Dresden gehört nicht zur Route.
+## Offline und Abnahme
 
-Kartenquelle: © OpenStreetMap-Mitwirkende, ODbL; geografische Daten und Metadaten unter assets. Schrift MedievalSharp mit OFL-Lizenz lokal eingebettet. Illustrationen sind eigenständige Motive; Hauszeichen vereinfachte Grafiken.
+Nach Installation online Offline-Bereitschaft abwarten, dann optional zum Home-Bildschirm hinzufügen. Flugmodus erst danach einschalten; WLAN ausschalten, Standortdienste eingeschaltet lassen. Das Gerät speichert Namen, Fundorte, Fotos und Fortschritt lokal, ohne Serverabgleich. Vor Gerätewechsel oder Löschen von Browserdaten sichern.
 
-Version 5.1: Startseite im Stil des HP-Quiz (dunkles Schloss, goldene Kacheln). Die Karte und Rätselseiten behalten ihr Pergament. Weitere Geschöpfe-Spiele und Quiz-Integration stehen im Entwicklungsplan; der aktuelle Geschöpfe-Einstieg zeigt den Niffler aus der Schnitzeljagd.
+Lokal geprüft: 19 automatisierte Tests, neue Rätselinteraktionen, explizite Erfolge, bestätigtes Inhaltsupdate, 390-px-Ansicht und Neustart bei abgeschaltetem Vorschau-Server. Reale GPS-Abnahme und iPhone-Dateiimport stehen weiterhin aus. Dafür zwei nahe Testorte aufnehmen, Abstand gewinnen, verborgenen Zielort und Ankunft prüfen, falsch/richtig lösen und offline neu starten. Erst danach endgültige fünf Fundorte aufnehmen.
 
-Version 6: Kapitelmenü mit vier Einträgen untereinander, einheitlichen goldenen Symbolen, ruhiger Buchschrift und Wiedereinstieg über den gespeicherten Spielstand. Kein Zurücksetzen nötig. Der Datenformatstand bleibt Version 5. Nach finaler Belohnung öffnet der hervorgehobene Einstieg die abgeschlossene Schatzkammer.
+## Druckmaterial
+
+Zehn Hogwarts-Spielbriefe, 13-seitiges Handbuch, 17-seitiges Material-PDF einschließlich acht LUMOS-Karten, Alphabet, Tier-/Beweiskarten, Fahrplan, Papierwappen, Zutaten, Ereignisse, Spuren, Quiz und drei Geschöpfe-Aufstellbilder. Einleitungsbrief und vorhandene Münz-SVGs liegen zusätzlich im Gesamtpaket. Auf A4 bei 100 % drucken. Papierwappen ist eine Bastelvorlage; ein STL-Wappen fehlt noch. Wirkliche Requisiten stehen in der Packliste.
+
+Kartenquelle: © OpenStreetMap-Mitwirkende, ODbL, Datenpaket unter assets. Schrift MedievalSharp mit lokaler OFL-Lizenz. Eigenständige Illustrationen im gewünschten Pergamentstil.
